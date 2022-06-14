@@ -12,11 +12,11 @@ namespace nationalHolidays.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class FeriadoesController : ControllerBase
+    public class FeriadosController : ControllerBase
     {
         private readonly DataBaseContext _context;
 
-        public FeriadoesController(DataBaseContext context)
+        public FeriadosController(DataBaseContext context)
         {
             _context = context;
         }

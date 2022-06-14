@@ -1,4 +1,7 @@
+using nationalHolidays.Data;
+
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddDbContext<DataBaseContext>();
 
 // Add services to the container.
 
